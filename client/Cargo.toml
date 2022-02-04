@@ -1,0 +1,16 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+rand = "0.8.0"
+gtk = "0.14.3"
+glib = "0.14.8"
+
+[[bin]]
+name = "cliente"
+path = "src/main.rs"
